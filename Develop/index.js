@@ -1,23 +1,23 @@
 // TODO: Include packages needed for this application
 // inquirer
 const inquirer = require('inquirer');
+const generateMarkdown = require("./utils/generateMarkdown");
+
 
 // TODO: Create an array of questions for user input
 const fs = require('fs');
 
-const questions = () => {
-  return inquirer
-  .prompt([
-    /* Pass your questions in here */
+const questions = [
+    // Pass your questions in here
     {
-        type: 'input',
-        name: 'user',
-        message: 'What is your GitHub user name?'
+      type: 'input',
+      name: 'title',
+      message: 'What is the title of your project?'
     },
     {
-        type: 'input',
-        name: 'repo',
-        message: 'What is your repository name?'
+      type: 'input',
+      name: 'describe',
+      message: 'Please describe your project.'
     },
     {
         type: 'input',
@@ -32,8 +32,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'credits',
-        message: 'Are there any collaborators?'
-        // if yes, include links to GitHub profiles
+        message: 'Include the links of any collaborators.'
     },
     {
         type: 'input',
@@ -49,28 +48,26 @@ const questions = () => {
     {
         type: 'input',
         name: 'contrib',
-        message: 'Would you like others to contribute?'
-        // if yes, add guidelines on how to do so
+        message: 'Would you like others to contribute? If yes, please describe how.'
     },
     {
         type: 'input',
         name: 'tests',
         message: 'Do you have any tests written for your application?'
     }
-  ]);
-};
+  ];
 
-questions()
+  questions()
   .then(answers => {
     // Use user feedback for... whatever!!
   })
-
   .catch(error => {
     if(error.isTtyError) {
       // Prompt couldn't be rendered in the current environment
-    };
-
-
+    } else {
+      // Something else when wrong
+    }
+  });
 
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
@@ -80,6 +77,3 @@ questions()
 
 // Function call to initialize app
 //init();
-
-
-  })
