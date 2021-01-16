@@ -1,15 +1,14 @@
-# Professional README Generator Starter Code
-
+# README Generator
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-  Here is a link that demonstrates the functionality of the README generator![Link](#)
- Follow this link that demonstrates the functionality of the README generator! [README Generator Walkthrough Video](#)
-
+  
+  Follow this link that demonstrates the functionality of the README generator! [README Generator Walkthrough Video](https://drive.google.com/file/d/1BhgV2ZpQWc4XVc4HId_nstvvoAjotFIy/view )
 
   ## Description
-  Generate a professional README file simply by answering a few questions about your application.
+  Generate a README file by just answering some questions.
+  
   ## Table of Contents
   
+  * [Title](#title)
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
@@ -18,18 +17,17 @@
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
-
   ## Installation
-  Clone the repo, create new repo, and copy cloned repo into your new directory.
+  Git clone, create repo, copy over the items.
   ## Usage
-  Launch terminal, run command node index, answer the questions as prompted and your README file will generate.
+  Open bash or your terminal, run the node index dot js command, answer some questions and then your README will be generated.
   ## Credits
-  No other collaborators at this time.
+  None at this time.
   ## License
   License is covered under: https://opensource.org/licenses/MIT
   ## Contributing
   Not at this time.
   ## Tests
-  There are no tests at this time.
+  No tests.
   ## Questions
-  If you have any questions, you can reach me by emailing [nick.ovalles@gmail.com](mailto:nick.ovalles@gmail.com) or follow the link to my gitHub profile [nickovalles](https://github.com/nickovalles).
+  If you have any questions, you can reach me by emailing [nick.ovalles@gmail.com](mailto:nick.ovalles@gmail.com) or follow the link to my gitHub profile [undefined](https://github.com/undefined).
