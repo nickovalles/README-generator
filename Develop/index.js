@@ -2,7 +2,7 @@
 // inquirer
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require("./utils/generateMarkdown").default;
+const generateMarkdown = require("./utils/generateMarkdown");
 
 
 // TODO: Create an array of questions for user input
@@ -35,24 +35,6 @@ const questions = [
         message: 'Include the links of any collaborators.'
     },
     {
-        //list type
-        type: 'list',
-        name: 'license',
-        message: 'Which license would you like to use?',
-        choices: [
-        'MIT',
-        'Apache',
-        'Mozilla',
-        'Unlicense'
-      ]
-    },
-    {
-        type: 'checkbox',
-        name: 'badges',
-        message: 'Are there any badges?'
-        // if yes, include badges
-    },
-    {
         type: 'input',
         name: 'contrib',
         message: 'Would you like others to contribute? If yes, please describe how.'
@@ -63,6 +45,24 @@ const questions = [
         message: 'Do you have any tests written for your application?'
     },
     {
+        //list type
+        type: 'list',
+        name: 'license',
+        message: 'Which license would you like to use?',
+        choices: [
+        'MIT',
+        'Apache',
+        'Mozilla',
+        'Unlicense',
+      ]
+    },
+    {
+        type: 'checkbox',
+        name: 'badges',
+        message: 'Are there any badges?'
+        // if yes, include badges
+    },
+    {
         type: 'input',
         name: 'email',
         message: 'Please input your email address.'
@@ -71,7 +71,8 @@ const questions = [
         type: 'input',
         name: 'GitHub',
         message: 'Please input your GitHub Username.'
-          }
+    },
+
 ];
 
  

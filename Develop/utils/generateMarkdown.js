@@ -18,8 +18,10 @@ const licenseLinks = {
 function generateMarkdown(data) {
   return `# ${data.title}
   ${badges[data.license]}
+
   ## Description
   ${data.describe}
+  
   ## Table of Contents
   
   * [Title](#title)
