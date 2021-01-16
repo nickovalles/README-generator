@@ -57,12 +57,6 @@ const questions = [
       ]
     },
     {
-        type: 'checkbox',
-        name: 'badges',
-        message: 'Are there any badges?'
-        // if yes, include badges
-    },
-    {
         type: 'input',
         name: 'email',
         message: 'Please input your email address.'
