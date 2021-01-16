@@ -1,11 +1,11 @@
 // TODO: Include packages needed for this application
 // inquirer
 const inquirer = require('inquirer');
-const generateMarkdown = require("./utils/generateMarkdown");
+const fs = require('fs');
+const generateMarkdown = require("./utils/generateMarkdown").default;
 
 
 // TODO: Create an array of questions for user input
-const fs = require('fs');
 
 const questions = [
     // Pass your questions in here
@@ -39,11 +39,11 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license would you like to use?',
-      choices: [
-        'Unlicense',
+        choices: [
+        'MIT',
         'Apache',
         'Mozilla',
-        'MIT'
+        'Unlicense'
       ]
     },
     {

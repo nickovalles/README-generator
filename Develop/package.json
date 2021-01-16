@@ -11,14 +11,13 @@
   "dependencies": {
     "inquirer": "^6.3.1"
   },
-  
-"devDependencies": {},
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/nickovalles/README-generator.git"
-},
-"bugs": {
-  "url": "https://github.com/nickovalles/README-generator/issues"
-},
-"homepage": "https://github.com/nickovalles/README-generator"
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickovalles/README-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickovalles/README-generator/issues"
+  },
+  "homepage": "https://github.com/nickovalles/README-generator"
 }
