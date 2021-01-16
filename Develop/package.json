@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "[Creating a Professional README.md File](./readme-guide)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,15 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  
+"devDependencies": {},
+"repository": {
+  "type": "git",
+  "url": "git+https://github.com/nickovalles/README-generator.git"
+},
+"bugs": {
+  "url": "https://github.com/nickovalles/README-generator/issues"
+},
+"homepage": "https://github.com/nickovalles/README-generator"
 }
